@@ -22,7 +22,10 @@ public class GetDiscountClothingStore {
 
             if(price >= 100000){
                 answer = (int) (price - price * 0.05);
+                return answer;
             }
+
+            answer = price;
 
             return answer;
         }
