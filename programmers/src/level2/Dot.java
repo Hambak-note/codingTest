@@ -13,24 +13,26 @@ public class Dot {
         public long solution(int k, int d) {
             long answer = 0;
 
-            for(int a = 0; a <=d; a++){
-
-                for(int b = 0; b <=d; b++){
-                    if(isCurrentPositionWithinDistance(a*k, b*k, d)){
-                        answer++;
-                        continue;
-                    }
-                    break;
-                }
+            for(int i = 0; i <= d; i+= k){
+                int yMaxValue = calculateMaxYAtCurrentXPosition(i, d);
+                answer += findPossibleY(yMaxValue, k);
             }
             return answer;
         }
 
-        private boolean isCurrentPositionWithinDistance(int x, int y, int d){
-            //두 점 사이의 거리 구하는 공식
-            double distanceBetweenTowPoints = Math.sqrt(Math.pow(x, 2)+Math.pow(y, 2));
+        private int calculateMaxYAtCurrentXPosition(int x, int d){
+            long xSquared = (long) Math.pow(x, 2);
+            long dSquared = (long) Math.pow(d, 2);
 
-            return distanceBetweenTowPoints <= d;
+            //return max Y value at this x position
+            return (int) Math.sqrt(dSquared - xSquared);
         }
+
+        private int findPossibleY(int yMaxValue,int k){
+            return (yMaxValue/k) + 1;
+        }
+
+
+
     }
 }
