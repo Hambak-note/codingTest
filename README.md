@@ -8,7 +8,7 @@
 # 문제집
 | 번호 | 주제 | 진행도 |
 | :--: | :--: | :--: |
-| 0x03 | [배열](workbook/0x03.md) | ![100%](https://progress-bar.dev/8/?scale=8&title=progress&width=500&color=babaca&suffix=/1) |
+| 0x03 | [배열](workbook/0x03.md) | ![100%](https://progress-bar.dev/8/?scale=1&title=progress&width=500&color=babaca&suffix=/8) |
 | 0x04 | [연결 리스트](workbook/0x04.md) | ![100%](https://progress-bar.dev/3/?scale=3&title=progress&width=500&color=babaca&suffix=/3) |
 | 0x05 | [스택](workbook/0x05.md) | ![100%](https://progress-bar.dev/8/?scale=8&title=progress&width=500&color=babaca&suffix=/8) |
 | 0x06 | [큐](workbook/0x06.md) | ![100%](https://progress-bar.dev/3/?scale=3&title=progress&width=500&color=babaca&suffix=/3) |
