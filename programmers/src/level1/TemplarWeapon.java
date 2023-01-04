@@ -6,11 +6,6 @@ public class TemplarWeapon {
         s.solution(5, 3, 2);
     }
 
-    /**
-     * 약수의 개수를 구하는 함수
-     *
-     */
-
     static class Solution {
         public int solution(int number, int limit, int power) {
             int answer = 0;

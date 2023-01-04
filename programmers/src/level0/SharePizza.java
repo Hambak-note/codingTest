@@ -2,8 +2,6 @@ package level0;
 
 public class SharePizza {
 
-
-
     public static void main(String[] args) {
 
     }
