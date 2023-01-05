@@ -6,6 +6,6 @@
 
 | 문제 분류 | 문제 | 문제 제목 | 정답 코드 |
 | :--: | :--: | :--: | :--: |
-| 연습 문제 | 10845 | [큐](https://www.acmicpc.net/problem/10845) | [정답 코드](../0x06/solutions/10845.cpp) |
+| 연습 문제 | 10845 | [큐](https://www.acmicpc.net/problem/10845) | [정답 코드](../barkingdog/src/queue/BOJ10845_Queue.java) |
 | 기본 문제✔ | 18258 | [큐 2](https://www.acmicpc.net/problem/18258) | |
 | 기본 문제✔ | 2164 | [카드2](https://www.acmicpc.net/problem/2164) |  |
