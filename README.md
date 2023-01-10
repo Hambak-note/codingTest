@@ -11,4 +11,4 @@
 | 0x01 | [스택](workbook/stack.md) | ![100%](https://progress-bar.dev/3/?scale=8&title=progress&width=500&color=babaca&suffix=/8) |
 | 0x02 | [큐](workbook/queue.md) | ![100%](https://progress-bar.dev/2/?scale=3&title=progress&width=500&color=babaca&suffix=/3) |
 | 0x03 | [덱](workbook/deque.md) | ![100%](https://progress-bar.dev/2/?scale=4&title=progress&width=500&color=babaca&suffix=/4) |
-| 0x04 | [BFS](workbook/BFS.md) | ![100%](https://progress-bar.dev/2/?scale=30&title=progress&width=500&color=babaca&suffix=/30) |
+| 0x04 | [BFS](workbook/BFS.md) | ![100%](https://progress-bar.dev/3/?scale=30&title=progress&width=500&color=babaca&suffix=/30) |
